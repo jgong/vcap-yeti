@@ -7,9 +7,9 @@ module BVT::Spec
   MONGODB_MANIFEST          = ENV['VCAP_BVT_MONGODB_MANIFEST'] ? eval(ENV['VCAP_BVT_MONGODB_MANIFEST']) :
                               {:vendor => "mongodb", :version=>"2.2"}
   RABBITMQ_MANIFEST         = ENV['VCAP_BVT_RABBITMQ_MANIFEST'] ? eval(ENV['VCAP_BVT_RABBITMQ_MANIFEST']) :
-                              {:vendor => "rabbitmq", :version=>"2.8"}
+                              {:vendor => "rabbitmq", :version=>"3.0"}
   POSTGRESQL_MANIFEST       = ENV['VCAP_BVT_POSTGRESQL_MANIFEST'] ? eval(ENV['VCAP_BVT_POSTGRESQL_MANIFEST']) :
-                              {:vendor => "postgresql", :version=>"9.1"}
+                              {:vendor => "postgresql", :version=>"9.2"}
   NEO4J_MANIFEST            = ENV['VCAP_BVT_NEO4J_MANIFEST'] ? eval(ENV['VCAP_BVT_NEO4J_MANIFEST']) :
                               {:vendor => "neo4j", :version=>"1.4"}
   BLOB_MANIFEST             = ENV['VCAP_BVT_BLOB_MANIFEST'] ? eval(ENV['VCAP_BVT_BLOB_MANIFEST']) :
